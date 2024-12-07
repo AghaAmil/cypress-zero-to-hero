@@ -1,15 +1,21 @@
-// hello world
+/*
 
-// single line comment
+********************************************
+********** Lesson 1 - Hello World **********
+********************************************
+
+*/
+
+// double slash - single line comment
 
 /*
 
-a
-multi
-line
+this is a
+multi-line
 comment
 
- */
+*/
 
-console.log('Hello World!');
+// Welcome to Javascript
+console.log("Hello World!");
 

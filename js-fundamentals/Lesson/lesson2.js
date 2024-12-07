@@ -1,42 +1,72 @@
 /*
 
-Variables
+********************************************
+*********** Lesson 2 - Variables ***********
+********************************************
 
- */
+*/
 
+/*
 
-var firstName;               // declare the variable
-firstName = 'Amirhossein';   // initiate the variable
+var & let
 
-var lastName = 'Moravveji';      // declare and initiate the variable
+*/
 
-var age, job, position;
+// declare then initiate
+var firstName;
+firstName = "Amirhossein";
+
+// declare and initiate together
+var lastName = "Moravveji";
+
+// ES6(ES2015) new version of JS introduced let
+// Recommended to use let
+let userName = "Amir.Moravveji";
+
+// showing different methods of initiating variables
+let age, sex, job;
 age = 30;
-job = 'QA Engineer';
-position = 'L3G1';
+sex = "Female";
+job = "Software QA Engineer";
 
+// display variables
 console.log(firstName);
 console.log(lastName);
+console.log(userName);
 console.log(age);
+console.log(sex);
 console.log(job);
-console.log(position);
 
-// ES6 variables
-// let
-let name = 'Amirhossein Moravveji';
-console.log(name);
+// difference between var & let
+var a = 2;
+console.log(a);
+var a = 3;
+console.log(a);
+// let cannot be be redeclared
+let b = 2;
+// let b = 3;
 
-name = 'Shiva Rajabi';       // change the variable value
-console.log(name);
+// reinitialize can be possible
+let x = 10;
+console.log(x);
+x = 11;
+console.log(x);
 
-// constant variable
+/*
+
+Constant Variables
+
+*/
+
 const PI = 3.14;
 console.log(PI);
 
-// cannot change the value a constant variable
-// PI = 3.20
+/*
+
+const PI;
+PI = 3.14 // error
 
 
+PI = 3.15 // error
 
-
-
+*/

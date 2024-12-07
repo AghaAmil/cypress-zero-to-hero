@@ -1,17 +1,27 @@
 /*
 
-JS Data Types
+********************************************
+********** Lesson 3 - Data Types ***********
+********************************************
 
- */
+*/
 
-// strings
+/*
+
+Strings
+
+*/
 console.log('This is a string between single quotation');
 console.log("This is also a string between double quotation");
 
 console.log("I'm going. using single quotation between a double quote");
 console.log('This City is "Tehran". Opposite of the string above.');
 
-// number
+/*
+
+Numbers
+
+*/
 num = 10;
 num2 = 3.14;
 
@@ -19,24 +29,40 @@ console.log(num);
 console.log(num2);
 console.log('10');       // the number 10 is considered as string here
 
-// boolean
+/*
+
+Booleans
+
+*/
 let isTrue = true;
 let isFalse = false;
 
 console.log(isTrue);
 console.log(isFalse);
 
-// null
+/*
+
+null
+
+*/
 let AmirGf = false;
 let AmirGfName = null;
 
 console.log(AmirGfName);
 
-// undefined
+/*
+
+undefined
+
+*/
 let firstName;
 console.log(firstName);
 
-// check the type of variable
+/*
+
+typeof
+
+*/
 let stringNumber = '24'
 let number = 28
 let varBool = true
