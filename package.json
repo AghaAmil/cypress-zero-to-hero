@@ -9,7 +9,6 @@
   "author": "Amirhossein Moravveji",
   "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
