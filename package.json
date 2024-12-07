@@ -1,0 +1,15 @@
+{
+  "name": "javascript-fundamentals",
+  "version": "1.0.0",
+  "description": "Learning the fundamentals of JavaScript programming language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amirhossein Moravveji",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
