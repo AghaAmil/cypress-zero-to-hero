@@ -10,16 +10,16 @@ firstName = 'Amirhossein';   // initiate the variable
 
 var lastName = 'Moravveji';      // declare and initiate the variable
 
-var age, job, postion;
+var age, job, position;
 age = 30;
 job = 'QA Engineer';
-postion = 'L3G1';
+position = 'L3G1';
 
 console.log(firstName);
 console.log(lastName);
 console.log(age);
 console.log(job);
-console.log(postion);
+console.log(position);
 
 // ES6 variables
 // let
