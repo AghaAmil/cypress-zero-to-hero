@@ -13,7 +13,9 @@ for loops
 */
 
 // using prompt-sync
-const prompt = require("prompt-sync")();
+import promptSync from 'prompt-sync';
+
+const prompt = promptSync();
 
 // show the iteration
 for (let i = 1; i <= 5; i++) {

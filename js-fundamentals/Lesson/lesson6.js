@@ -13,7 +13,10 @@ if, else statement
 */
 
 // using prompt-sync package
-const prompt = require("prompt-sync")();
+import promptSync from 'prompt-sync';
+
+const prompt = promptSync();
+
 
 // sample 1
 let yourMark = prompt("Enter Your Mark (0 - 100): ");
@@ -85,6 +88,9 @@ switch case statement
 // Suppose we want to display a message based on the current day of the week
 let day = prompt("Enter the current day of week in numbers (1-7): ");
 
+// change the input to number type
+day = parseInt(day);
+
 switch (day) {
     case 1:
         console.log("Sunday");
@@ -117,6 +123,9 @@ switch (day) {
     default:
         console.log("Invalid Day");
 }
+
+// blank line
+console.log();
 
 // switch statement
 let trafficLight = prompt("Enter the traffic light color: ");
